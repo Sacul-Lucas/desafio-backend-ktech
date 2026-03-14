@@ -87,12 +87,13 @@ src
 
 Separação de responsabilidades:
 
-|Camada |   Responsabilidade|
-|Routes |	Definição das rotas|
+|Camada | Responsabilidade                        |
+|-------|-----------------------------------------|
+|Routes |	Definição das rotas               |
 |Controllers |	Manipulação da requisição/resposta|
-|Services |	Regras de negócio|
-|Models |	Estrutura do banco|
-|Middlewares |	Validações e autenticação|
+|Services |	Regras de negócio                 |
+|Models |	Estrutura do banco                |
+|Middlewares |	Validações e autenticação         |
 
 # ⚙️ Configuração do ambiente
 
@@ -104,7 +105,8 @@ Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
 
 Descrição das variáveis:
 
-|Variável |	Descrição|
+|Variável | Descrição    |
+|---------|--------------|
 |PORT |	Porta em que a API será executada|
 |MONGO_URI |	URI de conexão com o MongoDB|
 |JWT_SECRET |	Chave secreta utilizada para gerar os tokens JWT|
